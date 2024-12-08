@@ -1,4 +1,29 @@
 # CIFAR-10_Object_Recognition_in_Images
+# Table of Contents
+1. [Abstract](#abstract)
+2. [Overview](#overview)
+   - [What is the problem?](#what-is-the-problem)
+   - [Why is this problem interesting?](#why-is-this-problem-interesting)
+   - [Use cases](#use-cases)
+3. [Approach](#approach)
+   - [Proposed Methodology](#proposed-methodology)
+   - [Rationale](#rationale)
+   - [Key Components and Results](#key-components-and-results)
+4. [Experiment Setup](#experiment-setup)
+   - [Dataset](#dataset)
+   - [Implementation Details](#implementation-details)
+   - [Computing Environment](#computing-environment)
+5. [Experiment Results](#experiment-results)
+   - [Main Results](#main-results)
+   - [Supplementary Results](#supplementary-results)
+6. [Discussion](#discussion)
+   - [Comparative Analysis](#comparative-analysis)
+   - [Challenges](#challenges)
+7. [Conclusion](#conclusion)
+8. [Getting Started](#getting-started)
+   - [Installation](#installation)
+   - [Usage](#usage)
+
 
 ## Abstract
 This project aims to classify images from the CIFAR-100 dataset into 100 distinct categories using machine learning models. The models explored include Logistic Regression, Logistic Regression with PCA, and Convolutional Neural Networks (CNNs). The CNN-based approach demonstrates superior performance, showcasing the potential of deep learning for image classification tasks.
@@ -91,7 +116,9 @@ The CNN model shows clear advantages in capturing complex patterns compared to t
 ---
 
 ## Conclusion
-This project highlights the superiority of CNNs in image classification tasks. The results serve as a foundation for further exploration, potentially incorporating advanced architectures like ResNet or pre-trained models.
+This project effectively demonstrates the application of machine learning and deep learning techniques to the CIFAR-100 image classification task, a challenging dataset with 100 diverse categories. Through comparative analysis of Logistic Regression, Logistic Regression with PCA, and a Convolutional Neural Network (CNN), the study underscores the clear advantages of deep learning for such complex tasks. The CNN approach, bolstered by data augmentation and optimized architecture, achieved a significant improvement in accuracy (37.74%) compared to traditional models, showcasing its capability to capture intricate patterns in image data.
+
+While the CNN outperformed other approaches, its accuracy highlights room for further optimization. Future work could explore deeper architectures, hyperparameter tuning, and transfer learning to enhance performance. This project not only provides a strong foundation for advancing image classification models but also illustrates the importance of leveraging modern deep learning techniques to tackle real-world challenges in computer vision. The findings are a step forward in developing robust solutions for diverse applications, from autonomous systems to automated content tagging.
 
 ---
 
@@ -101,3 +128,22 @@ This project highlights the superiority of CNNs in image classification tasks. T
    ```bash
    git clone https://github.com/yourusername/CIFAR-100-Classification.git
    cd CIFAR-100-Classification
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+### Usage
+1. Train the model:
+   ```bash
+   python train_model.py
+
+2. Test the model:
+   ```bash
+   python test_model.py
+
+3. Predict on custom images:
+   ```bash
+   python predict_image.py --image path/to/image.jpg
+
+
+
