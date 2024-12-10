@@ -24,6 +24,12 @@
    - [Installation](#installation)
    - [Usage](#usage)
 
+## Team Members
+Vishwa Bhadiyadara
+
+Bhakti Pasnani
+
+Vaishnvi Bhutada
 
 ## Abstract
 This project aims to classify images from the CIFAR-100 dataset into 100 distinct categories using machine learning models. The models explored include Logistic Regression, Logistic Regression with PCA, and Convolutional Neural Networks (CNNs). The CNN-based approach demonstrates superior performance, showcasing the potential of deep learning for image classification tasks.
